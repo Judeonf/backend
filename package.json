@@ -1,0 +1,19 @@
+{
+  "name": "fastqash-backend",
+  "version": "1.0.0",
+  "description": "Backend pour FASTQASH AFRICA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.36.0"
+  }
+}
