@@ -22,4 +22,3 @@ sequelize.sync().then(() => {
 }).catch(err => {
   console.error('Erreur de connexion à la base de données:', err);
 });
-531a48f (finalisation des ajouts et préparation du pull)
